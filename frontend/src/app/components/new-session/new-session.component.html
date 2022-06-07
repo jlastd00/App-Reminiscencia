@@ -1,0 +1,24 @@
+<div class="row mt-6 p-5">
+    <div class="col-md-8 mx-auto">
+        <div class="card-header">
+            <h2 class="page-header text-center">Nueva sesión de reminiscencia</h2>
+        </div>
+        <div class="card-body text-center">
+            <p class="lead">¿Con qué paciente vas a realizar la sesión?</p>
+            <form (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <select [(ngModel)]="selectedPatient" name="patients">
+                        <option value="-1"> - Selecciona paciente - </option> 
+                        <option *ngFor="let patient of patients" [ngValue]="patient">
+                            {{ patient.nombre }} {{ patient.apellidos }}
+                        </option> 
+                    </select> 
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Comenzar sesión</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

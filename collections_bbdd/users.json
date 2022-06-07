@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "60198aef8ca8bd35500d2b54"
+  },
+  "verifyToken": "",
+  "resetToken": "",
+  "patients": [
+    "60199d51ab6f7812241532ca",
+    "60199d51ab6f7812241532d1",
+    "60199d51ab6f7812241532cb"
+  ],
+  "username": "juan",
+  "email": "juan@gmail.com",
+  "password": "$2a$10$AL507Gng8dkuByhW4kEpMOmqhW6HLqIG4isi99ktMv5f83g3QYL02",
+  "createdAt": {
+    "$date": "2021-02-02T17:25:05.473Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-02T17:40:36.318Z"
+  }
+},{
+  "_id": {
+    "$oid": "60198b278ca8bd35500d2b55"
+  },
+  "verifyToken": "",
+  "resetToken": "",
+  "patients": [
+    "60199d51ab6f7812241532cc",
+    "60199d51ab6f7812241532d0"
+  ],
+  "username": "Maria",
+  "email": "maria@gmail.com",
+  "password": "$2a$10$.Wsgnf8.jdll4KaRYlxLvuOGEscKgvDClH1yWiJvxh0VNSKDKEvmy",
+  "createdAt": {
+    "$date": "2021-02-02T17:26:01.197Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-02T17:41:16.072Z"
+  }
+},{
+  "_id": {
+    "$oid": "60198b518ca8bd35500d2b56"
+  },
+  "verifyToken": "",
+  "resetToken": "",
+  "patients": [
+    "60199d51ab6f7812241532cd",
+    "60199d51ab6f7812241532ce",
+    "60199d51ab6f7812241532cf"
+  ],
+  "username": "Pepe",
+  "email": "pepe@gmail.com",
+  "password": "$2a$10$SILcA7F1KQ0nE8THlLM9VOo/LBUQJ9MqDzqN4Pya1lpXLtE1vDR5m",
+  "createdAt": {
+    "$date": "2021-02-02T17:26:42.842Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-02T17:40:17.580Z"
+  }
+}]

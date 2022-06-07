@@ -1,0 +1,58 @@
+<div *ngIf="urlVideo==null" class="row mt-6 p-5">
+    <div class="col-md-8 mx-auto">
+        <div *ngIf="tipo=='objeto'">
+            <div class="card-header">
+                <h2 class="page-header text-center">Nueva tarea de tipo "Objetos cotidianos"</h2>
+            </div>
+            <div class="card-body text-center">
+                <p class="lead">Tarea tipo objetos cotidianos...</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="tasks" class="btn btn-danger btn-block">Terminar tarea</a>
+            </div>
+        </div>
+        <div *ngIf="tipo=='cancion'">
+            <div class="card-header">
+                <h2 class="page-header text-center">Nueva tarea de tipo "Canción"</h2>
+            </div>
+            <div class="card-body text-center">
+                <p class="lead">Tarea tipo canción...</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="tasks" class="btn btn-danger btn-block">Terminar tarea</a>
+            </div>
+        </div>
+        <div *ngIf="tipo=='video'">
+            <div class="card-header">
+                <h2 class="page-header text-center">Nueva tarea de tipo "Video"</h2>
+            </div>
+            <div class="card-body">
+                <p class="lead text-center">Pincha en el video que quieras utilizar para la sesión</p>
+                <ul class="list-group" *ngFor="let video of videos">
+                    <li style="cursor: pointer;" class="list-group-item" (click)="reproducir(video.url)">
+                        Título: {{ video.titulo }} <br>
+                        Etiquetas: {{ video.etiquetas }} <br>
+                        Duración: {{ video.duracion }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="urlVideo!=null" class="row mt-6 p-5">
+    <div class="col-md-8 mx-auto">
+        <div class="card-header">
+            <h2 class="page-header text-center">Reproducción de video</h2>
+        </div>
+        <div class="card-body text-center">
+            <p class="lead">
+                <iframe width="400" height="250" [src]="getVideoIframe(urlVideo)" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p> 
+        </div>
+        <div class="card-footer text-center">
+            <a href="tasks" class="btn btn-danger btn-block">Terminar tarea</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="row mt-6 p-5">
+    <div class="col-md-6 mx-auto">
+        <div *ngIf="user">
+            <h1 class="page-header">Pérfil de {{ user.username }}</h1>
+            <ul class="list-group">
+                <li class="list-group-item">ID: {{ user.id }}</li>
+                <li class="list-group-item">Email: {{ user.email }}</li>
+                <div *ngIf="patients != ''">
+                    Pacientes: 
+                    <div *ngFor="let patient of patients">
+                        <li class="list-group-item">{{ patient.nombre }} {{ patient.apellidos }}</li>
+                    </div>
+                </div>
+                <div *ngIf="user.patients == ''">
+                    <li class="list-group-item">Pacientes: No hay pacientes</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "60199d51ab6f7812241532ca"
+  },
+  "nombre": "Mauricio",
+  "apellidos": "Lopez Lopez",
+  "sexo": "Hombre",
+  "fechaNac": "15/03/1934",
+  "lugarNac": "León",
+  "nivelDemencia": 2
+},{
+  "_id": {
+    "$oid": "60199d51ab6f7812241532cb"
+  },
+  "nombre": "Lourdes",
+  "apellidos": "Martinez Martinez",
+  "sexo": "Mujer",
+  "fechaNac": "04/03/1953",
+  "lugarNac": "Astorga",
+  "nivelDemencia": 1
+},{
+  "_id": {
+    "$oid": "60199d51ab6f7812241532cc"
+  },
+  "nombre": "Pablo",
+  "apellidos": "Lopez Perez",
+  "sexo": "Hombre",
+  "fechaNac": "15/11/1946",
+  "lugarNac": "Ponferrada",
+  "nivelDemencia": 1
+},{
+  "_id": {
+    "$oid": "60199d51ab6f7812241532cd"
+  },
+  "nombre": "Aurelio",
+  "apellidos": "Perez Perez",
+  "sexo": "Hombre",
+  "fechaNac": "23/08/1940",
+  "lugarNac": "Villadangos del Paramo",
+  "nivelDemencia": 3
+},{
+  "_id": {
+    "$oid": "60199d51ab6f7812241532ce"
+  },
+  "nombre": "Dolores",
+  "apellidos": "Hernandez Perez",
+  "sexo": "Mujer",
+  "fechaNac": "13/05/1942",
+  "lugarNac": "La Bañeza",
+  "nivelDemencia": 2
+},{
+  "_id": {
+    "$oid": "60199d51ab6f7812241532cf"
+  },
+  "nombre": "José",
+  "apellidos": "Alvarez Alvarez",
+  "sexo": "Hombre",
+  "fechaNac": "20/03/1952",
+  "lugarNac": "Ponferrada",
+  "nivelDemencia": 1
+},{
+  "_id": {
+    "$oid": "60199d51ab6f7812241532d0"
+  },
+  "nombre": "Filomena",
+  "apellidos": "Martinez Perez",
+  "sexo": "Mujer",
+  "fechaNac": "21/12/1945",
+  "lugarNac": "León",
+  "nivelDemencia": 3
+},{
+  "_id": {
+    "$oid": "60199d51ab6f7812241532d1"
+  },
+  "nombre": "Margarita",
+  "apellidos": "Perez Alvarez",
+  "sexo": "Mujer",
+  "fechaNac": "17/01/1951",
+  "lugarNac": "Riaño",
+  "nivelDemencia": 2
+}]
